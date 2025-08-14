@@ -1,0 +1,58 @@
+        body {
+            background: url('images/bg.jpg');
+            background-size: cover;
+            font-family: monospace;
+            -webkit-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        h1>span {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 40vw;
+            text-align: center;
+            line-height: 0;
+            letter-spacing: -0.1em;
+            transition: 0.5s cubic-bezier(0, 0, 0.10, 1.0);
+
+        }
+
+        h1>span:hover {
+            letter-spacing: -0.05em;
+        }
+
+        h2>span {
+            font-size: 10vw;
+            color: rgb(255, 255, 255);
+            text-shadow: 0 0 50px rgb(0, 0, 0), 0 0 100px rgb(0, 0, 0), 0 0 150px rgb(0, 0, 0);
+            letter-spacing: -0.1em;
+        }
+
+        h2 {
+
+            transition: 0.5s cubic-bezier(0, 0, 0.10, 1.0);
+        }
+
+        h2:hover {
+            transform: rotate3d(1, 0, 0, 30deg);
+            scale: 0.9;
+        }
+
+        h3 {
+            transition: 0.5s cubic-bezier(0, 0, 0.10, 1.0);
+        }
+
+        h3:hover {
+            transform: scale(1.1);
+        }
+
+        .absolute {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 100%;
+
+        }
